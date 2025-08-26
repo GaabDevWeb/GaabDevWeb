@@ -8,14 +8,8 @@
 </div>
 
 
-
-<div align="center"> 
-<a href = "https://steamcommunity.com/profiles/76561199535999965/"> <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" /></a>
- </div>
 <div align="center">
-<br><p align="centre"><b>Visitors Count</b></p>  
-<p align="center"><img align="center" src="https://profile-counter.glitch.me/{GaabDevWeb}/count.svg" /></p> 
-<br>
+<img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
 </div>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=238636&height=120&section=footer"/>
