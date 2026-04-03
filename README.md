@@ -13,3 +13,9 @@
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=238636&height=120&section=footer"/>
 
+
+  <div style="display: flex; flex-direction: row;">
+  <img height="180em" alt="Meus Status" src="https://github-readme-stats-git-master-gabriel-dinizs-projects-f58da7c5.vercel.app/api?username=GaabDevWeb"/>
+
+  <img height="180em" alt="Principais Linguagens" src="https://github-readme-stats-git-master-gabriel-dinizs-projects-f58da7c5.vercel.app/api/top-langs/?username=GaabDevWeb&layout=compact"/>
+</div>
