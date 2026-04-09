@@ -117,11 +117,10 @@ Sigo estudando **ADS** na Infnet e testando ideias nos repositórios acima. Se a
 <img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
 </p>
 
-<!-- Ajuste os href de Portfólio e Instagram quando tiver os links definitivos. -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/gabrielroesedecarli/" style="display: inline-block; padding: 0 22px;"><img src="assets/linkedin.svg" alt="" width="20" height="20" style="vertical-align: middle;" /> LinkedIn</a>
-  <a href="https://github.com/GaabDevWeb" style="display: inline-block; padding: 0 22px;"><img src="assets/github.svg" alt="" width="20" height="20" style="vertical-align: middle;" /> GitHub</a>
-  <a href="gaml.ai/gaabdev" style="display: inline-block; padding: 0 22px;"><img src="assets/folder.svg" alt="" width="30" height="20" style="vertical-align: middle;" /> Portfólio</a>
-  <a href="https://www.instagram.com/gaabdev/" style="display: inline-block; padding: 0 22px;"><img src="assets/instagram.svg" alt="" width="20" height="20" style="vertical-align: middle;" /> Instagram</a>
+  <a href="https://www.linkedin.com/in/gabrielroesedecarli/" style="display: inline-block; padding: 0 22px;"><img src="assets/linkedin.svg" alt="LinkedIn" width="20" height="20" style="vertical-align: middle;" /></a>
+  <a href="https://github.com/GaabDevWeb" style="display: inline-block; padding: 0 22px;"><img src="assets/github.svg" alt="GitHub" width="20" height="20" style="vertical-align: middle;" /></a>
+  <a href="gaml.ai/gaabdev" style="display: inline-block; padding: 0 22px;"><img src="assets/folder.svg" alt="Portfólio" width="30" height="20" style="vertical-align: middle;" /></a>
+  <a href="https://www.instagram.com/gaabdev/" style="display: inline-block; padding: 0 22px;"><img src="assets/instagram.svg" alt="Instagram" width="20" height="20" style="vertical-align: middle;" /></a>
 </p>
 
