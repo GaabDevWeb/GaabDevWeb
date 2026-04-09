@@ -16,35 +16,27 @@
 
 ## Sobre mim
 
-<table border="0" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;">
-  <tr>
-    <td width="200" valign="top" style="border: none; padding: 0 20px 0 0;">
-      <img src="assets/brain.png" alt="Ilustração em halftone de um cérebro" width="180" />
-    </td>
-    <td valign="top" style="border: none; padding: 0;">
-      <p>Olá — sou desenvolvedor <strong>fullstack</strong> em formação, com foco em <strong>automação</strong> e em sistemas que não desperdiçam tempo humano em tarefa repetitiva. Gosto de ligar APIs, dados e ferramentas do dia a dia para que o trabalho flua, não de empilhar buzzwords.</p>
-      <p><strong>Como penso sobre rotina:</strong> se algo leva mais de ~10 minutos por dia e sempre é do mesmo jeito, prefiro investir uma vez em script, bot ou pipeline e deixar a máquina cuidar do resto.</p>
-    </td>
-  </tr>
-</table>
+<img align="left" src="assets/brain.png" alt="Ilustração em halftone de um cérebro" width="180" style="margin-right: 20px; margin-bottom: 8px;" />
+
+<p>Olá — sou desenvolvedor <strong>fullstack</strong> em formação, com foco em <strong>automação</strong> e em sistemas que não desperdiçam tempo humano em tarefa repetitiva. Gosto de ligar APIs, dados e ferramentas do dia a dia para que o trabalho flua, não de empilhar buzzwords.</p>
+
+<p><strong>Como penso sobre rotina:</strong> se algo leva mais de ~10 minutos por dia e sempre é do mesmo jeito, prefiro investir uma vez em script, bot ou pipeline e deixar a máquina cuidar do resto.</p>
+
+<div style="clear: both;"></div>
 
 ---
 
-<table border="0" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;">
-  <tr>
-    <td valign="top" style="border: none; padding: 0 20px 0 0;">
-      <h2>Foco no momento</h2>
-      <ul>
-        <li>Construir coisas <strong>úteis de verdade</strong> (menos demo superficial, mais problema real).</li>
-        <li>Melhorar <strong>documentação e organização</strong> de ideias técnicas — especialmente quando o material nasce caótico (aula, log, rascunho).</li>
-        <li>Afinar <strong>automação</strong> sem virar Frankenstein: código legível, módulos com responsabilidade clara, espaço para crescer.</li>
-      </ul>
-    </td>
-    <td width="200" valign="top" align="right" style="border: none; padding: 0;">
-      <img src="assets/magnifier.png" alt="Ilustração em halftone de uma mão segurando uma lupa" width="180" />
-    </td>
-  </tr>
-</table>
+<img align="right" src="assets/magnifier.png" alt="Ilustração em halftone de uma mão segurando uma lupa" width="180" style="margin-left: 20px; margin-bottom: 8px;" />
+
+<h2>Foco no momento</h2>
+
+<ul>
+  <li>Construir coisas <strong>úteis de verdade</strong> (menos demo superficial, mais problema real).</li>
+  <li>Melhorar <strong>documentação e organização</strong> de ideias técnicas — especialmente quando o material nasce caótico (aula, log, rascunho).</li>
+  <li>Afinar <strong>automação</strong> sem virar Frankenstein: código legível, módulos com responsabilidade clara, espaço para crescer.</li>
+</ul>
+
+<div style="clear: both;"></div>
 
 ---
 
