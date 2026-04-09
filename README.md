@@ -16,25 +16,23 @@
 
 ## Sobre mim
 
-<table>
+<table border="0" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;">
   <tr>
-    <td width="200" valign="top">
+    <td width="200" valign="top" style="border: none; padding: 0 20px 0 0;">
       <img src="assets/brain.png" alt="Ilustração em halftone de um cérebro" width="180" />
     </td>
-    <td valign="top">
+    <td valign="top" style="border: none; padding: 0;">
       <p>Olá — sou desenvolvedor <strong>fullstack</strong> em formação, com foco em <strong>automação</strong> e em sistemas que não desperdiçam tempo humano em tarefa repetitiva. Gosto de ligar APIs, dados e ferramentas do dia a dia para que o trabalho flua, não de empilhar buzzwords.</p>
-      <blockquote>
-        <p><strong>Como penso sobre rotina:</strong> se algo leva mais de ~10 minutos por dia e sempre é do mesmo jeito, prefiro investir uma vez em script, bot ou pipeline e deixar a máquina cuidar do resto.</p>
-      </blockquote>
+      <p><strong>Como penso sobre rotina:</strong> se algo leva mais de ~10 minutos por dia e sempre é do mesmo jeito, prefiro investir uma vez em script, bot ou pipeline e deixar a máquina cuidar do resto.</p>
     </td>
   </tr>
 </table>
 
 ---
 
-<table>
+<table border="0" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;">
   <tr>
-    <td valign="top">
+    <td valign="top" style="border: none; padding: 0 20px 0 0;">
       <h2>Foco no momento</h2>
       <ul>
         <li>Construir coisas <strong>úteis de verdade</strong> (menos demo superficial, mais problema real).</li>
@@ -42,7 +40,7 @@
         <li>Afinar <strong>automação</strong> sem virar Frankenstein: código legível, módulos com responsabilidade clara, espaço para crescer.</li>
       </ul>
     </td>
-    <td width="200" valign="top" align="right">
+    <td width="200" valign="top" align="right" style="border: none; padding: 0;">
       <img src="assets/magnifier.png" alt="Ilustração em halftone de uma mão segurando uma lupa" width="180" />
     </td>
   </tr>
@@ -106,12 +104,12 @@ Uso **`Python`** para automação e scripts, **`JavaScript` / `Node.js`** quando
 </p>
 
 <div align="center">
-  <table>
+  <table border="0" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;">
     <tr>
-      <td align="center" valign="top">
+      <td align="center" valign="top" style="border: none; padding: 0 8px 0 0;">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=GaabDevWeb&theme=dark" alt="Top Languages by Commit" />
       </td>
-      <td align="center" valign="top">
+      <td align="center" valign="top" style="border: none; padding: 0 0 0 8px;">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=GaabDevWeb&theme=dark" alt="Stats" />
       </td>
     </tr>
