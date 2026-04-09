@@ -26,10 +26,10 @@
 
 ---
 
-<img align="right" src="assets/magnifier.png" alt="Ilustração em halftone de uma mão segurando uma lupa" width="180" style="margin-left: 20px; margin-bottom: 8px;" />
-
 <h2 style="border-bottom: none; padding-bottom: 0;">Foco no momento</h2>
 
+
+<img align="right" src="assets/magnifier.png" alt="Ilustração em halftone de uma mão segurando uma lupa" width="180" style="margin-left: 20px; margin-bottom: 8px;" />
 <ul>
   <li>Construir coisas <strong>úteis de verdade</strong> (menos demo superficial, mais problema real).</li>
   <li>Melhorar <strong>documentação e organização</strong> de ideias técnicas — especialmente quando o material nasce caótico (aula, log, rascunho).</li>
