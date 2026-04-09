@@ -32,11 +32,21 @@
 
 ---
 
-## Foco no momento
-
-- Construir coisas **úteis de verdade** (menos demo superficial, mais problema real).
-- Melhorar **documentação e organização** de ideias técnicas — especialmente quando o material nasce caótico (aula, log, rascunho).
-- Afinar **automação** sem virar Frankenstein: código legível, módulos com responsabilidade clara, espaço para crescer.
+<table>
+  <tr>
+    <td valign="top">
+      <h2>Foco no momento</h2>
+      <ul>
+        <li>Construir coisas <strong>úteis de verdade</strong> (menos demo superficial, mais problema real).</li>
+        <li>Melhorar <strong>documentação e organização</strong> de ideias técnicas — especialmente quando o material nasce caótico (aula, log, rascunho).</li>
+        <li>Afinar <strong>automação</strong> sem virar Frankenstein: código legível, módulos com responsabilidade clara, espaço para crescer.</li>
+      </ul>
+    </td>
+    <td width="200" valign="top" align="right">
+      <img src="assets/magnifier.png" alt="Ilustração em halftone de uma mão segurando uma lupa" width="180" />
+    </td>
+  </tr>
+</table>
 
 ---
 
