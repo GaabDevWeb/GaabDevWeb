@@ -113,15 +113,15 @@ Uso **`Python`** para automação e scripts, **`JavaScript` / `Node.js`** quando
 ## Aprendizado e contato
 
 Sigo estudando **ADS** na Infnet e testando ideias nos repositórios acima. Se algo aqui te parecer útil ou quiser sugerir melhoria, issue ou PR são bem-vindos.
-
 <p align="center">
-  <a href="https://www.linkedin.com/in/seu-usuario">LinkedIn</a>
-  ·
-  <a href="mailto:seuemail@exemplo.com">Email</a>
-  ·
-  <a href="#">Currículo</a>
-  ·
-  <a href="https://github.com/GaabDevWeb">GitHub</a>
+<img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
 </p>
 
-<!-- Substitua `seu-usuario` no LinkedIn, o endereço em `mailto:` e o `href` do currículo (PDF ou página). Troque o `#` quando o link estiver pronto. -->
+<!-- Ajuste os href de Portfólio e Instagram quando tiver os links definitivos. -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/gabrielroesedecarli/" style="display: inline-block; padding: 0 22px;"><img src="assets/linkedin.svg" alt="" width="20" height="20" style="vertical-align: middle;" /> LinkedIn</a>
+  <a href="https://github.com/GaabDevWeb" style="display: inline-block; padding: 0 22px;"><img src="assets/github.svg" alt="" width="20" height="20" style="vertical-align: middle;" /> GitHub</a>
+  <a href="gaml.ai/gaabdev" style="display: inline-block; padding: 0 22px;"><img src="assets/folder.svg" alt="" width="30" height="20" style="vertical-align: middle;" /> Portfólio</a>
+  <a href="https://www.instagram.com/gaabdev/" style="display: inline-block; padding: 0 22px;"><img src="assets/instagram.svg" alt="" width="20" height="20" style="vertical-align: middle;" /> Instagram</a>
+</p>
+
