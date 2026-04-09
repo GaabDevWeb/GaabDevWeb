@@ -1,6 +1,7 @@
 <p align="center">
   <img src="assets/banner.png" alt="Banner" />
 </p>
+<div align="center">
 
 ```text
 gaab@linux:~$ ./bio
@@ -13,6 +14,8 @@ Focus: High-efficiency systems & process automation
 
 Philosophy: "Se toma mais de 10 minutos por dia, não deveria ser feito por um humano."
 ```
+
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=linux&logoColor=white&color=black" alt="Status" />
