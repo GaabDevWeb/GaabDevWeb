@@ -1,21 +1,6 @@
 <p align="center">
   <img src="assets/banner.png" alt="Banner" />
 </p>
-<div align="center">
-
-```text
-gaab@linux:~$ ./bio
-
-[SYSTEM INFO]
-
-Role: Fullstack & Automation Developer (Junior/Student)
-
-Focus: High-efficiency systems & process automation
-
-Philosophy: "Se toma mais de 10 minutos por dia, não deveria ser feito por um humano."
-```
-
-</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=linux&logoColor=white&color=black" alt="Status" />
@@ -24,37 +9,64 @@ Philosophy: "Se toma mais de 10 minutos por dia, não deveria ser feito por um h
   <img src="https://img.shields.io/badge/STACK-FULLSTACK-9cf?style=for-the-badge&logoColor=white&color=black" alt="Fullstack" />
   <img src="https://img.shields.io/badge/MODE-LEARNING-informational?style=for-the-badge&logo=gitbook&logoColor=white&color=black" alt="Learning" />
   <img src="https://img.shields.io/badge/FOCUS-AUTOMATION-critical?style=for-the-badge&logo=robotframework&logoColor=white&color=black" alt="Automação" />
-  <img src="https://img.shields.io/badge/ENV-TERMINAL--CENTRIC-success?style=for-the-badge&logo=gnubash&logoColor=white&color=black" alt="Terminal" />
+  <img src="https://img.shields.io/badge/WORKFLOW-PRAGMATIC-success?style=for-the-badge&logo=jetbrains&logoColor=white&color=black" alt="Fluxo de trabalho" />
 </p>
 
-<p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=GaabDevWeb&theme=github-dark&hide_border=true&border_radius=8&locale=pt&short_numbers=true" alt="GitHub Streak" /></a>
+---
+
+## Sobre mim
+
+<table>
+  <tr>
+    <td width="200" valign="top">
+      <img src="assets/brain.png" alt="Ilustração em halftone de um cérebro" width="180" />
+    </td>
+    <td valign="top">
+      <p>Olá — sou desenvolvedor <strong>fullstack</strong> em formação, com foco em <strong>automação</strong> e em sistemas que não desperdiçam tempo humano em tarefa repetitiva. Gosto de ligar APIs, dados e ferramentas do dia a dia para que o trabalho flua, não de empilhar buzzwords.</p>
+      <blockquote>
+        <p><strong>Como penso sobre rotina:</strong> se algo leva mais de ~10 minutos por dia e sempre é do mesmo jeito, prefiro investir uma vez em script, bot ou pipeline e deixar a máquina cuidar do resto.</p>
+      </blockquote>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Foco no momento
+
+- Construir coisas **úteis de verdade** (menos demo superficial, mais problema real).
+- Melhorar **documentação e organização** de ideias técnicas — especialmente quando o material nasce caótico (aula, log, rascunho).
+- Afinar **automação** sem virar Frankenstein: código legível, módulos com responsabilidade clara, espaço para crescer.
+
+---
+
+## Projetos em destaque
+
+<p>
+  <a href="https://github.com/GaabDevWeb/OrbitBot"><img src="https://img.shields.io/badge/OrbitBot-repositório-black?style=for-the-badge&logo=github&logoColor=white&color=black" alt="OrbitBot no GitHub" /></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img src="https://github-readme-activity-graph.vercel.app/graph?username=GaabDevWeb&theme=github-compact" alt="GitHub activity graph" /></a>
+Automação de mensageria em partes separadas (`Node.js`, `Python`): integrações, regras e “entrega” não ficam grudadas no mesmo arquivo gigante. Objetivo é manter simples de mudar quando o canal ou o fluxo muda.
+
+<p>
+  <a href="https://github.com/GaabDevWeb/Infnet-Students-Summary"><img src="https://img.shields.io/badge/ISS%20%E2%80%94%20Infnet%20Students%20Summary-repositório-black?style=for-the-badge&logo=github&logoColor=white&color=black" alt="ISS — Infnet Students Summary no GitHub" /></a>
 </p>
 
-### 🧪 Experimental Modules (Projects)
+Conteúdo estático + IA: registros de aula (logs, notas) viram **Markdown técnico** com estrutura previsível — visão geral, exemplos, laboratório — bom para revisar e publicar depois.
 
-**OrbitBot** · `Node.js` + `Python`  
-Arquitetura modular para automação de mensageria. Foco em separação de preocupações (SoC) e escalabilidade.
+<p>
+  <a href="https://github.com/GaabDevWeb/linux-rice"><img src="https://img.shields.io/badge/Linux%20Rice-repositório-black?style=for-the-badge&logo=github&logoColor=white&color=black" alt="Linux Rice no GitHub" /></a>
+</p>
 
-**ISS — Infnet Students Summary** · `Static` + `AI`  
-Pipeline de processamento de dados para transformar logs de aula em documentação técnica estruturada.
+Ambiente Linux do jeito que eu uso (`Bash`, `Lua`): tema, atalhos, pequenos scripts. Menos “show” e mais **conforto** para codar e alternar entre terminal, janelas e editor.
 
-**Linux Rice** · `Bash` + `Lua`  
-Customização de ambiente Unix-like focada em workflow de desenvolvimento e produtividade terminal-centric.
+<!-- Ajuste os href acima se os slugs dos repositórios forem diferentes. -->
 
-### ⚙️ Core Stack
+---
 
-**[HARDWARE & RUNTIMES]**
+## Stack e ferramentas
 
-**Primary:** Python (automation/scripts), JavaScript / Node.js (back & front).
-
-**Infrastructure:** Linux (Arch/Debian), Git (Conventional Commits flow), Docker.
-
-**Daily driver:** Neovim / VS Code (Vim motion).
+Uso **`Python`** para automação e scripts, **`JavaScript` / `Node.js`** quando entra web ou serviço. **`Linux`** (Arch ou Debian) como base, **`Git`** com commits no estilo [Conventional Commits](https://www.conventionalcommits.org/), e **`Docker`** quando preciso que o ambiente seja o mesmo em qualquer máquina. No editor: **`Neovim`** ou VS Code com movimento estilo Vim — o que importa é não perder tempo com fricção desnecessária.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white&color=black" alt="Python" />
@@ -65,6 +77,18 @@ Customização de ambiente Unix-like focada em workflow de desenvolvimento e pro
   <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white&color=black" alt="Docker" />
   <img src="https://img.shields.io/badge/Neovim-000000?style=for-the-badge&logo=neovim&logoColor=white&color=black" alt="Neovim" />
   <img src="https://img.shields.io/badge/VS_Code-000000?style=for-the-badge&logo=visualstudiocode&logoColor=white&color=black" alt="VS Code" />
+</p>
+
+---
+
+## Atividade no GitHub
+
+<p align="center">
+  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=GaabDevWeb&theme=github-dark&hide_border=true&border_radius=8&locale=pt&short_numbers=true" alt="GitHub Streak" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img src="https://github-readme-activity-graph.vercel.app/graph?username=GaabDevWeb&theme=github-compact" alt="GitHub activity graph" /></a>
 </p>
 
 <p align="center">
@@ -84,14 +108,20 @@ Customização de ambiente Unix-like focada em workflow de desenvolvimento e pro
   </table>
 </div>
 
-```text
-gaab@linux:~$ sudo systemctl status mindset
-● mindset.service - Continuous Learning and Problem Solving
-     Active: active (running) since 2005-11-25
-```
+---
+
+## Aprendizado e contato
+
+Sigo estudando **ADS** na Infnet e testando ideias nos repositórios acima. Se algo aqui te parecer útil ou quiser sugerir melhoria, issue ou PR são bem-vindos.
 
 <p align="center">
-  <strong>[CONNECT]:</strong> <a href="https://www.linkedin.com/in/seu-usuario">LinkedIn</a> · <a href="mailto:seuemail@exemplo.com">Email</a> · <a href="#">Resume</a> · <a href="https://github.com/GaabDevWeb">GitHub</a>
+  <a href="https://www.linkedin.com/in/seu-usuario">LinkedIn</a>
+  ·
+  <a href="mailto:seuemail@exemplo.com">Email</a>
+  ·
+  <a href="#">Currículo</a>
+  ·
+  <a href="https://github.com/GaabDevWeb">GitHub</a>
 </p>
 
-<!-- Substitua linkedin/in/seu-usuario, o mailto: e o href do Resume (PDF ou página). -->
+<!-- Substitua `seu-usuario` no LinkedIn, o endereço em `mailto:` e o `href` do currículo (PDF ou página). Troque o `#` quando o link estiver pronto. -->
