@@ -14,7 +14,7 @@
 
 ---
 
-## Sobre mim
+<h2 style="border-bottom: none; padding-bottom: 0;">Sobre mim</h2>
 
 <img align="left" src="assets/brain.png" alt="Ilustração em halftone de um cérebro" width="180" style="margin-right: 20px; margin-bottom: 8px;" />
 
@@ -28,7 +28,7 @@
 
 <img align="right" src="assets/magnifier.png" alt="Ilustração em halftone de uma mão segurando uma lupa" width="180" style="margin-left: 20px; margin-bottom: 8px;" />
 
-<h2>Foco no momento</h2>
+<h2 style="border-bottom: none; padding-bottom: 0;">Foco no momento</h2>
 
 <ul>
   <li>Construir coisas <strong>úteis de verdade</strong> (menos demo superficial, mais problema real).</li>
@@ -40,7 +40,7 @@
 
 ---
 
-## Projetos em destaque
+<h2 style="border-bottom: none; padding-bottom: 0;">Projetos em destaque</h2>
 
 <p>
   <a href="https://github.com/GaabDevWeb/OrbitBot"><img src="https://img.shields.io/badge/OrbitBot-repositório-black?style=for-the-badge&logo=github&logoColor=white&color=black" alt="OrbitBot no GitHub" /></a>
@@ -64,7 +64,7 @@ Ambiente Linux do jeito que eu uso (`Bash`, `Lua`): tema, atalhos, pequenos scri
 
 ---
 
-## Stack e ferramentas
+<h2 style="border-bottom: none; padding-bottom: 0;">Stack e ferramentas</h2>
 
 Uso **`Python`** para automação e scripts, **`JavaScript` / `Node.js`** quando entra web ou serviço. **`Linux`** (Arch ou Debian) como base, **`Git`** com commits no estilo [Conventional Commits](https://www.conventionalcommits.org/), e **`Docker`** quando preciso que o ambiente seja o mesmo em qualquer máquina. No editor: **`Neovim`** ou VS Code com movimento estilo Vim — o que importa é não perder tempo com fricção desnecessária.
 
@@ -81,7 +81,7 @@ Uso **`Python`** para automação e scripts, **`JavaScript` / `Node.js`** quando
 
 ---
 
-## Atividade no GitHub
+<h2 style="border-bottom: none; padding-bottom: 0;">Atividade no GitHub</h2>
 
 <p align="center">
   <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=GaabDevWeb&theme=github-dark&hide_border=true&border_radius=8&locale=pt&short_numbers=true" alt="GitHub Streak" /></a>
