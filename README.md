@@ -36,6 +36,11 @@
   <li>Afinar <strong>automação</strong> sem virar Frankenstein: código legível, módulos com responsabilidade clara, espaço para crescer.</li>
 </ul>
 
+
+<p align="center">
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img src="https://github-readme-activity-graph.vercel.app/graph?username=GaabDevWeb&theme=github-compact" alt="GitHub activity graph" /></a>
+</p>
+
 <div style="clear: both;"></div>
 
 ---
@@ -60,6 +65,25 @@ Conteúdo estático + IA: registros de aula (logs, notas) viram **Markdown técn
 
 Ambiente Linux do jeito que eu uso (`Bash`, `Lua`): tema, atalhos, pequenos scripts. Menos “show” e mais **conforto** para codar e alternar entre terminal, janelas e editor.
 
+
+<div align="center">
+  <table border="0" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;">
+    <tr>
+      <td align="center" valign="top" style="border: none; padding: 0 8px 0 0;">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=GaabDevWeb&theme=dark" alt="Top Languages by Commit" />
+      </td>
+      <td align="center" valign="top" style="border: none; padding: 0 0 0 8px;">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=GaabDevWeb&theme=dark" alt="Stats" />
+      </td>
+      <td align="center" valign="top" style="border: none; padding: 0 0 0 8px;">
+        <p align="center">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GaabDevWeb&theme=dark" alt="Profile details" />
+        </p>
+      </td> 
+  </table>
+</div>
+
+
 <!-- Ajuste os href acima se os slugs dos repositórios forem diferentes. -->
 
 ---
@@ -79,36 +103,7 @@ Uso **`Python`** para automação e scripts, **`JavaScript` / `Node.js`** quando
   <img src="https://img.shields.io/badge/VS_Code-000000?style=for-the-badge&logo=visualstudiocode&logoColor=white&color=black" alt="VS Code" />
 </p>
 
----
-
-<h2 style="border-bottom: none; padding-bottom: 0;">Atividade no GitHub</h2>
-
-<p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=GaabDevWeb&theme=github-dark&hide_border=true&border_radius=8&locale=pt&short_numbers=true" alt="GitHub Streak" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img src="https://github-readme-activity-graph.vercel.app/graph?username=GaabDevWeb&theme=github-compact" alt="GitHub activity graph" /></a>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GaabDevWeb&theme=dark" alt="Profile details" />
-</p>
-
-<div align="center">
-  <table border="0" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;">
-    <tr>
-      <td align="center" valign="top" style="border: none; padding: 0 8px 0 0;">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=GaabDevWeb&theme=dark" alt="Top Languages by Commit" />
-      </td>
-      <td align="center" valign="top" style="border: none; padding: 0 0 0 8px;">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=GaabDevWeb&theme=dark" alt="Stats" />
-      </td>
-    </tr>
-  </table>
-</div>
-
----
+--- 
 
 ## Aprendizado e contato
 
