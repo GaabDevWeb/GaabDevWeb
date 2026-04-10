@@ -87,8 +87,6 @@ Ambiente Linux do jeito que eu uso (`Bash`, `Lua`): tema, atalhos, pequenos scri
 </div>
 
 
-<!-- Ajuste os href acima se os slugs dos repositórios forem diferentes. -->
-
 ---
 
 <h2 style="border-bottom: none; padding-bottom: 0;">Stack e ferramentas</h2>
