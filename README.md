@@ -18,7 +18,11 @@
 
 <img align="left" src="assets/brain.png" alt="Ilustração em halftone de um cérebro" width="180" style="margin-right: 20px; margin-bottom: 8px;" />
 
-<p>Olá — sou desenvolvedor <strong>fullstack</strong> em formação, com foco em <strong>automação</strong> e em sistemas que não desperdiçam tempo humano em tarefa repetitiva. Gosto de ligar APIs, dados e ferramentas do dia a dia para que o trabalho flua, não de empilhar buzzwords.</p>
+<p>Estudante de ADS focado em construir sistemas práticos e automações.
+Gosto de transformar processos manuais ou repetitivos em fluxos eficientes, 
+explorando ferramentas e tecnologias como Python, Node.js e Linux.
+Atualmente estudando e experimentando com workflows de dados, sistemas backend 
+e resolução de problemas reais através de projetos.</p>
 
 <p><strong>Como penso sobre rotina:</strong> se algo leva mais de ~10 minutos por dia e sempre é do mesmo jeito, prefiro investir uma vez em script, bot ou pipeline e deixar a máquina cuidar do resto.</p>
 
@@ -27,7 +31,6 @@
 ---
 
 <h2 style="border-bottom: none; padding-bottom: 0;">Foco no momento</h2>
-
 
 <img align="right" src="assets/magnifier.png" alt="Ilustração em halftone de uma mão segurando uma lupa" width="180" style="margin-left: 20px; margin-bottom: 8px;" />
 <ul>
@@ -54,13 +57,13 @@
 Automação de mensageria em partes separadas (`Node.js`, `Python`): integrações, regras e “entrega” não ficam grudadas no mesmo arquivo gigante. Objetivo é manter simples de mudar quando o canal ou o fluxo muda.
 
 <p>
-  <a href="https://github.com/GaabDevWeb/Infnet-Students-Summary"><img src="https://img.shields.io/badge/ISS%20%E2%80%94%20Infnet%20Students%20Summary-repositório-black?style=for-the-badge&logo=github&logoColor=white&color=black" alt="ISS — Infnet Students Summary no GitHub" /></a>
+  <a href="https://github.com/GaabDevWeb/ISS"><img src="https://img.shields.io/badge/ISS%20%E2%80%94%20Infnet%20Students%20Summary-repositório-black?style=for-the-badge&logo=github&logoColor=white&color=black" alt="ISS — Infnet Students Summary no GitHub" /></a>
 </p>
 
 Conteúdo estático + IA: registros de aula (logs, notas) viram **Markdown técnico** com estrutura previsível — visão geral, exemplos, laboratório — bom para revisar e publicar depois.
 
 <p>
-  <a href="https://github.com/GaabDevWeb/linux-rice"><img src="https://img.shields.io/badge/Linux%20Rice-repositório-black?style=for-the-badge&logo=github&logoColor=white&color=black" alt="Linux Rice no GitHub" /></a>
+  <a href="https://github.com/GaabDevWeb/Noctis-rice"><img src="https://img.shields.io/badge/Linux%20Rice-repositório-black?style=for-the-badge&logo=github&logoColor=white&color=black" alt="Linux Rice no GitHub" /></a>
 </p>
 
 Ambiente Linux do jeito que eu uso (`Bash`, `Lua`): tema, atalhos, pequenos scripts. Menos “show” e mais **conforto** para codar e alternar entre terminal, janelas e editor.
@@ -83,8 +86,6 @@ Ambiente Linux do jeito que eu uso (`Bash`, `Lua`): tema, atalhos, pequenos scri
   </table>
 </div>
 
-
-<!-- Ajuste os href acima se os slugs dos repositórios forem diferentes. -->
 
 ---
 
