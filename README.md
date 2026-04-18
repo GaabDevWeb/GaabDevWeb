@@ -33,11 +33,11 @@ e resolução de problemas reais através de projetos.</p>
 <h2 style="border-bottom: none; padding-bottom: 0;">Visão geral</h2>
 
 <p align="center">
-  <img src="metrics-base.svg" alt="Métricas gerais do perfil" />
+  <img src="https://raw.githubusercontent.com/GaabDevWeb/GaabDevWeb/tests/metrics-base.svg" alt="Métricas gerais do perfil" />
 </p>
 
 <p align="center">
-  <img src="metrics-terminal.svg" alt="Perfil em modo terminal" />
+  <img src="https://raw.githubusercontent.com/GaabDevWeb/GaabDevWeb/tests/metrics-terminal.svg" alt="Perfil em modo terminal" />
 </p>
 
 ---
@@ -62,15 +62,15 @@ e resolução de problemas reais através de projetos.</p>
 <h2 style="border-bottom: none; padding-bottom: 0;">Calendário & Padrões</h2>
 
 <p align="center">
-  <img src="metrics-calendar.svg" alt="Calendário isométrico de commits — ano completo" />
+  <img src="https://raw.githubusercontent.com/GaabDevWeb/GaabDevWeb/tests/metrics-calendar.svg" alt="Calendário isométrico de commits — ano completo" />
 </p>
 
 <p align="center">
-  <img src="metrics-contributions.svg" alt="Heatmap de contribuições do ano corrente" />
+  <img src="https://raw.githubusercontent.com/GaabDevWeb/GaabDevWeb/tests/metrics-contributions.svg" alt="Heatmap de contribuições do ano corrente" />
 </p>
 
 <p align="center">
-  <img src="metrics-habits.svg" alt="Hábitos e padrões de código" />
+  <img src="https://raw.githubusercontent.com/GaabDevWeb/GaabDevWeb/tests/metrics-habits.svg" alt="Hábitos e padrões de código" />
 </p>
 
 ---
@@ -100,7 +100,7 @@ Ambiente Linux do jeito que eu uso (`Bash`, `Lua`): tema, atalhos, pequenos scri
 <h2 style="border-bottom: none; padding-bottom: 0;">Código recente</h2>
 
 <p align="center">
-  <img src="metrics-code.svg" alt="Snippet de código extraído de commits recentes" />
+  <img src="https://raw.githubusercontent.com/GaabDevWeb/GaabDevWeb/tests/metrics-code.svg" alt="Snippet de código extraído de commits recentes" />
 </p>
 
 ---
@@ -108,11 +108,11 @@ Ambiente Linux do jeito que eu uso (`Bash`, `Lua`): tema, atalhos, pequenos scri
 <h2 style="border-bottom: none; padding-bottom: 0;">Linguagens & Linhas</h2>
 
 <p align="center">
-  <img src="metrics-languages.svg" alt="Linguagens mais usadas e linhas por repositório" />
+  <img src="https://raw.githubusercontent.com/GaabDevWeb/GaabDevWeb/tests/metrics-languages.svg" alt="Linguagens mais usadas e linhas por repositório" />
 </p>
 
 <p align="center">
-  <img src="metrics-languages-recent.svg" alt="Linguagens usadas recentemente" />
+  <img src="https://raw.githubusercontent.com/GaabDevWeb/GaabDevWeb/tests/metrics-languages-recent.svg" alt="Linguagens usadas recentemente" />
 </p>
 
 ---
@@ -120,7 +120,7 @@ Ambiente Linux do jeito que eu uso (`Bash`, `Lua`): tema, atalhos, pequenos scri
 <h2 style="border-bottom: none; padding-bottom: 0;">Tráfego & Repositórios</h2>
 
 <p align="center">
-  <img src="metrics-traffic.svg" alt="Tráfego e estatísticas de repositórios" />
+  <img src="https://raw.githubusercontent.com/GaabDevWeb/GaabDevWeb/tests/metrics-traffic.svg" alt="Tráfego e estatísticas de repositórios" />
 </p>
 
 ---
@@ -128,7 +128,7 @@ Ambiente Linux do jeito que eu uso (`Bash`, `Lua`): tema, atalhos, pequenos scri
 <h2 style="border-bottom: none; padding-bottom: 0;">Conquistas</h2>
 
 <p align="center">
-  <img src="metrics-achievements.svg" alt="Conquistas no GitHub" />
+  <img src="https://raw.githubusercontent.com/GaabDevWeb/GaabDevWeb/tests/metrics-achievements.svg" alt="Conquistas no GitHub" />
 </p>
 
 ---
@@ -149,7 +149,7 @@ Uso **`Python`** para automação e scripts, **`JavaScript` / `Node.js`** quando
 </p>
 
 <p align="center">
-  <img src="metrics-topics.svg" alt="Tópicos de interesse" />
+  <img src="https://raw.githubusercontent.com/GaabDevWeb/GaabDevWeb/tests/metrics-topics.svg" alt="Tópicos de interesse" />
 </p>
 
 ---
@@ -157,7 +157,7 @@ Uso **`Python`** para automação e scripts, **`JavaScript` / `Node.js`** quando
 <h2 style="border-bottom: none; padding-bottom: 0;">AniList</h2>
 
 <p align="center">
-  <img src="metrics-anilist.svg" alt="Mangás favoritos e lendo no AniList" />
+  <img src="https://raw.githubusercontent.com/GaabDevWeb/GaabDevWeb/tests/metrics-anilist.svg" alt="Mangás favoritos e lendo no AniList" />
 </p>
 
 ---
@@ -167,11 +167,11 @@ Uso **`Python`** para automação e scripts, **`JavaScript` / `Node.js`** quando
 Sigo estudando **ADS** na Infnet e testando ideias nos repositórios acima. Se algo aqui te parecer útil ou quiser sugerir melhoria, issue ou PR são bem-vindos.
 
 <p align="center">
-  <img src="metrics-activity.svg" alt="Atividade recente no GitHub" />
+  <img src="https://raw.githubusercontent.com/GaabDevWeb/GaabDevWeb/tests/metrics-activity.svg" alt="Atividade recente no GitHub" />
 </p>
 
 <p align="center">
-  <img src="metrics-pagespeed.svg" alt="PageSpeed do portfólio" />
+  <img src="https://raw.githubusercontent.com/GaabDevWeb/GaabDevWeb/tests/metrics-pagespeed.svg" alt="PageSpeed do portfólio" />
 </p>
 
 <p align="center">
