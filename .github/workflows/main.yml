@@ -1,8 +1,11 @@
-name: KernelBot Metrics
+name: GitHub Metrics
+
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 0"  # Domingo às 06:00 UTC
   push:
-    branches: ["tests"] # Agora ele monitora a branch correta
+    branches: ["main"]
 
 jobs:
   github-metrics:
@@ -10,21 +13,102 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+
+      # Linguagens mais usadas + linhas de código
+      - name: Linguagens & Linhas
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: GaabDevWeb
           template: classic
           base: ""
-          
-          # Plugins de monitoramento
+          filename: metrics-languages.svg
           plugin_languages: yes
+          plugin_languages_indepth: yes
           plugin_languages_details: lines, percentage
+          plugin_languages_limit: 8
           plugin_lines: yes
-          plugin_habits: yes
-          plugin_habits_charts: yes
 
-          # Configurações de Output
-          filename: kernel-status.svg
-          output_action: commit
-          committer_branch: tests # Garante que o commit do SVG vá para a branch tests
+      # Calendário isométrico 3D — ano completo
+      - name: Calendário isométrico
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: GaabDevWeb
+          template: classic
+          base: ""
+          filename: metrics-calendar.svg
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      # Hábitos de código: horários, fatos e gráficos
+      - name: Hábitos de código
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: GaabDevWeb
+          template: classic
+          base: ""
+          filename: metrics-habits.svg
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: chartist
+          plugin_habits_days: 14
+          plugin_habits_trim: yes
+
+      # Timeline de atividade recente (commits, PRs, issues)
+      - name: Atividade recente
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: GaabDevWeb
+          template: classic
+          base: ""
+          filename: metrics-activity.svg
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: push, pr, issue
+
+      # Snippet de código real extraído de commits recentes
+      - name: Código recente
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: GaabDevWeb
+          template: classic
+          base: ""
+          filename: metrics-code.svg
+          plugin_code: yes
+          plugin_code_lines: 10
+          plugin_code_visibility: public
+
+      # Tópicos do GitHub estrelados (modo ícones)
+      - name: Tópicos
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: GaabDevWeb
+          template: classic
+          base: ""
+          filename: metrics-topics.svg
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 15
+
+      # PageSpeed do portfólio — requer PAGESPEED_TOKEN (Google API Key, opcional)
+      # Para gerar: https://developers.google.com/speed/docs/insights/v5/get-started
+      - name: PageSpeed do portfólio
+        uses: lowlighter/metrics@latest
+        continue-on-error: true
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: GaabDevWeb
+          template: classic
+          base: ""
+          filename: metrics-pagespeed.svg
+          plugin_pagespeed: yes
+          plugin_pagespeed_url: https://gaml.ai/gaabdev
+          plugin_pagespeed_detailed: yes
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}

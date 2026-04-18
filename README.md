@@ -1,6 +1,3 @@
-  <img src="kernel-status.svg" alt="KernelBot Metrics" />
-
-
 <p align="center">
   <img src="assets/banner.png" alt="Banner" />
 </p>
@@ -51,6 +48,18 @@ e resolução de problemas reais através de projetos.</p>
 
 ---
 
+<h2 style="border-bottom: none; padding-bottom: 0;">Calendário & Padrões</h2>
+
+<p align="center">
+  <img src="metrics-calendar.svg" alt="Calendário isométrico de commits — ano completo" />
+</p>
+
+<p align="center">
+  <img src="metrics-habits.svg" alt="Hábitos e padrões de código" />
+</p>
+
+---
+
 <h2 style="border-bottom: none; padding-bottom: 0;">Projetos em destaque</h2>
 
 <p>
@@ -71,23 +80,21 @@ Conteúdo estático + IA: registros de aula (logs, notas) viram **Markdown técn
 
 Ambiente Linux do jeito que eu uso (`Bash`, `Lua`): tema, atalhos, pequenos scripts. Menos “show” e mais **conforto** para codar e alternar entre terminal, janelas e editor.
 
+---
 
-<div align="center">
-  <table border="0" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;">
-    <tr>
-      <td align="center" valign="top" style="border: none; padding: 0 8px 0 0;">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=GaabDevWeb&theme=dark" alt="Top Languages by Commit" />
-      </td>
-      <td align="center" valign="top" style="border: none; padding: 0 0 0 8px;">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=GaabDevWeb&theme=dark" alt="Stats" />
-      </td>
-      <td align="center" valign="top" style="border: none; padding: 0 0 0 8px;">
-        <p align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GaabDevWeb&theme=dark" alt="Profile details" />
-        </p>
-      </td> 
-  </table>
-</div>
+<h2 style="border-bottom: none; padding-bottom: 0;">Código recente</h2>
+
+<p align="center">
+  <img src="metrics-code.svg" alt="Snippet de código extraído de commits recentes" />
+</p>
+
+---
+
+<h2 style="border-bottom: none; padding-bottom: 0;">Linguagens & Linhas</h2>
+
+<p align="center">
+  <img src="metrics-languages.svg" alt="Linguagens mais usadas e linhas por repositório" />
+</p>
 
 
 ---
@@ -107,11 +114,24 @@ Uso **`Python`** para automação e scripts, **`JavaScript` / `Node.js`** quando
   <img src="https://img.shields.io/badge/VS_Code-000000?style=for-the-badge&logo=visualstudiocode&logoColor=white&color=black" alt="VS Code" />
 </p>
 
+<p align="center">
+  <img src="metrics-topics.svg" alt="Tópicos de interesse" />
+</p>
+
 --- 
 
 ## Aprendizado e contato
 
 Sigo estudando **ADS** na Infnet e testando ideias nos repositórios acima. Se algo aqui te parecer útil ou quiser sugerir melhoria, issue ou PR são bem-vindos.
+
+<p align="center">
+  <img src="metrics-activity.svg" alt="Atividade recente no GitHub" />
+</p>
+
+<p align="center">
+  <img src="metrics-pagespeed.svg" alt="PageSpeed do portfólio" />
+</p>
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
 </p>
