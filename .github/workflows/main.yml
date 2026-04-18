@@ -143,12 +143,11 @@ jobs:
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
 
-      # ── AniList — anime + manga (favoritos, a assistir, a ler) ──
+      # ── AniList — anime + manga; token real evita 404 por contexto (metrics#1644) ──
       - name: AniList (anime e mangá)
         uses: lowlighter/metrics@latest
-        continue-on-error: true
         with:
-          token: NOT_NEEDED
+          token: ${{ secrets.METRICS_TOKEN }}
           user: GaabDevWeb
           template: classic
           base: ""
