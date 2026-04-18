@@ -1,3 +1,6 @@
+  <img src="kernel-status.svg" alt="KernelBot Metrics" />
+
+
 <p align="center">
   <img src="assets/banner.png" alt="Banner" />
 </p>
