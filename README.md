@@ -30,6 +30,18 @@ e resolução de problemas reais através de projetos.</p>
 
 ---
 
+<h2 style="border-bottom: none; padding-bottom: 0;">Visão geral</h2>
+
+<p align="center">
+  <img src="metrics-base.svg" alt="Métricas gerais do perfil" />
+</p>
+
+<p align="center">
+  <img src="metrics-terminal.svg" alt="Perfil em modo terminal" />
+</p>
+
+---
+
 <h2 style="border-bottom: none; padding-bottom: 0;">Foco no momento</h2>
 
 <img align="right" src="assets/magnifier.png" alt="Ilustração em halftone de uma mão segurando uma lupa" width="180" style="margin-left: 20px; margin-bottom: 8px;" />
@@ -38,7 +50,6 @@ e resolução de problemas reais através de projetos.</p>
   <li>Melhorar <strong>documentação e organização</strong> de ideias técnicas — especialmente quando o material nasce caótico (aula, log, rascunho).</li>
   <li>Afinar <strong>automação</strong> sem virar Frankenstein: código legível, módulos com responsabilidade clara, espaço para crescer.</li>
 </ul>
-
 
 <p align="center">
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img src="https://github-readme-activity-graph.vercel.app/graph?username=GaabDevWeb&theme=github-compact" alt="GitHub activity graph" /></a>
@@ -55,6 +66,10 @@ e resolução de problemas reais através de projetos.</p>
 </p>
 
 <p align="center">
+  <img src="metrics-contributions.svg" alt="Heatmap de contribuições do ano corrente" />
+</p>
+
+<p align="center">
   <img src="metrics-habits.svg" alt="Hábitos e padrões de código" />
 </p>
 
@@ -66,7 +81,7 @@ e resolução de problemas reais através de projetos.</p>
   <a href="https://github.com/GaabDevWeb/OrbitBot"><img src="https://img.shields.io/badge/OrbitBot-repositório-black?style=for-the-badge&logo=github&logoColor=white&color=black" alt="OrbitBot no GitHub" /></a>
 </p>
 
-Automação de mensageria em partes separadas (`Node.js`, `Python`): integrações, regras e “entrega” não ficam grudadas no mesmo arquivo gigante. Objetivo é manter simples de mudar quando o canal ou o fluxo muda.
+Automação de mensageria em partes separadas (`Node.js`, `Python`): integrações, regras e "entrega" não ficam grudadas no mesmo arquivo gigante. Objetivo é manter simples de mudar quando o canal ou o fluxo muda.
 
 <p>
   <a href="https://github.com/GaabDevWeb/ISS"><img src="https://img.shields.io/badge/ISS%20%E2%80%94%20Infnet%20Students%20Summary-repositório-black?style=for-the-badge&logo=github&logoColor=white&color=black" alt="ISS — Infnet Students Summary no GitHub" /></a>
@@ -78,7 +93,7 @@ Conteúdo estático + IA: registros de aula (logs, notas) viram **Markdown técn
   <a href="https://github.com/GaabDevWeb/Noctis-rice"><img src="https://img.shields.io/badge/Linux%20Rice-repositório-black?style=for-the-badge&logo=github&logoColor=white&color=black" alt="Linux Rice no GitHub" /></a>
 </p>
 
-Ambiente Linux do jeito que eu uso (`Bash`, `Lua`): tema, atalhos, pequenos scripts. Menos “show” e mais **conforto** para codar e alternar entre terminal, janelas e editor.
+Ambiente Linux do jeito que eu uso (`Bash`, `Lua`): tema, atalhos, pequenos scripts. Menos "show" e mais **conforto** para codar e alternar entre terminal, janelas e editor.
 
 ---
 
@@ -96,6 +111,25 @@ Ambiente Linux do jeito que eu uso (`Bash`, `Lua`): tema, atalhos, pequenos scri
   <img src="metrics-languages.svg" alt="Linguagens mais usadas e linhas por repositório" />
 </p>
 
+<p align="center">
+  <img src="metrics-languages-recent.svg" alt="Linguagens usadas recentemente" />
+</p>
+
+---
+
+<h2 style="border-bottom: none; padding-bottom: 0;">Tráfego & Repositórios</h2>
+
+<p align="center">
+  <img src="metrics-traffic.svg" alt="Tráfego e estatísticas de repositórios" />
+</p>
+
+---
+
+<h2 style="border-bottom: none; padding-bottom: 0;">Conquistas</h2>
+
+<p align="center">
+  <img src="metrics-achievements.svg" alt="Conquistas no GitHub" />
+</p>
 
 ---
 
@@ -118,7 +152,15 @@ Uso **`Python`** para automação e scripts, **`JavaScript` / `Node.js`** quando
   <img src="metrics-topics.svg" alt="Tópicos de interesse" />
 </p>
 
---- 
+---
+
+<h2 style="border-bottom: none; padding-bottom: 0;">AniList</h2>
+
+<p align="center">
+  <img src="metrics-anilist.svg" alt="Mangás favoritos e lendo no AniList" />
+</p>
+
+---
 
 ## Aprendizado e contato
 
@@ -142,4 +184,3 @@ Sigo estudando **ADS** na Infnet e testando ideias nos repositórios acima. Se a
   <a href="gaml.ai/gaabdev" style="display: inline-block; padding: 0 22px;"><img src="assets/folder.svg" alt="Portfólio" width="30" height="20" style="vertical-align: middle;" /></a>
   <a href="https://www.instagram.com/gaabdev/" style="display: inline-block; padding: 0 22px;"><img src="assets/instagram.svg" alt="Instagram" width="20" height="20" style="vertical-align: middle;" /></a>
 </p>
-
