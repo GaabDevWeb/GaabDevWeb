@@ -45,18 +45,6 @@ jobs:
           output_action: commit
           committer_branch: main
 
-      # ── Template terminal (visual SSH) ──
-      - name: Terminal
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: GaabDevWeb
-          template: terminal
-          base: header, metadata
-          filename: metrics-terminal.svg
-          output_action: commit
-          committer_branch: main
-
       # ── Isocalendar: só half-year | full-year (ver plugins/isocalendar/README.md) ──
       - name: Calendário isométrico
         uses: lowlighter/metrics@latest
@@ -70,33 +58,6 @@ jobs:
           committer_branch: main
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-
-      # ── Bio da conta GitHub (plugins/introduction/README.md); base vazio = só o bloco do plugin ──
-      - name: Introdução (bio GitHub)
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: GaabDevWeb
-          template: classic
-          base: ""
-          filename: metrics-introduction.svg
-          output_action: commit
-          committer_branch: main
-          plugin_introduction: yes
-
-      # ── Heatmap de contribuições (desde o registo na GitHub; limit 0 = todos os anos) ──
-      - name: Contribuições (histórico completo)
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: GaabDevWeb
-          template: classic
-          base: ""
-          filename: metrics-contributions.svg
-          output_action: commit
-          committer_branch: main
-          plugin_calendar: yes
-          plugin_calendar_limit: 0
 
       # ── Linguagens mais usadas (indepth + linhas) ──
       - name: Linguagens & Linhas
@@ -114,24 +75,6 @@ jobs:
           plugin_languages_details: lines, percentage
           plugin_languages_limit: 8
           plugin_lines: yes
-
-      # ── Linguagens usadas recentemente (últimos 14 dias) ──
-      - name: Linguagens recentes
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: GaabDevWeb
-          template: classic
-          base: ""
-          filename: metrics-languages-recent.svg
-          output_action: commit
-          committer_branch: main
-          plugin_languages: yes
-          plugin_languages_sections: recently-used
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 400
 
       # ── Repositórios + tráfego (views últimas 2 semanas) ──
       - name: Tráfego de repositórios
