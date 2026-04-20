@@ -16,7 +16,7 @@ jobs:
     steps:
 
       # ── AniList primeiro: evita efeitos de outros passos; listas sem espaço após vírgula (parser do metrics) ──
-      - name: AniList (anime e mangá)
+      - name: AniList (mangás favoritos e personagens)
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -28,8 +28,8 @@ jobs:
           committer_branch: main
           plugin_anilist: yes
           plugin_anilist_user: GaabDevWeb
-          plugin_anilist_medias: anime,manga
-          plugin_anilist_sections: favorites,watching,reading,characters
+          plugin_anilist_medias: manga
+          plugin_anilist_sections: favorites,characters
           plugin_anilist_limit: 6
           plugin_anilist_limit_characters: 22
           plugin_anilist_shuffle: no
