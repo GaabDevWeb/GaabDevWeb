@@ -28,8 +28,8 @@ e resolução de problemas reais através de projetos.</p>
 ---
 
 <div style="width: 100%; overflow: hidden; margin-top: 20px;">
-  <img src="metrics-anilist.svg" style="width: 40%; float: left;" />
-  <img src="assets/frirem.png" style="width: 40%; float: right;" />
+  <img src="metrics-anilist.svg" style="width: 48%; align: left;" />
+  <img src="assets/frirem.png" style="width: 48%; align: right;" />
 </div>
 
 ---
