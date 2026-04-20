@@ -25,10 +25,13 @@ e resolução de problemas reais através de projetos.</p>
 
 <p><strong>Como penso sobre rotina:</strong> se algo leva mais de ~10 minutos por dia e sempre é do mesmo jeito, prefiro investir uma vez em script, bot ou pipeline e deixar a máquina cuidar do resto.</p>
 
+---
+
 <div style="width: 100%; overflow: hidden; margin-top: 20px;">
-  <img src="metrics-anilist.svg" width="300" style="float: left;" />
-  <img src="assets/frirem.png" width="300" height="360" style="float: right;" />
+  <img src="metrics-anilist.svg" style="width: 40%; float: left;" />
+  <img src="assets/frirem.png" style="width: 40%; float: right;" />
 </div>
+
 ---
 
 <h2 style="border-bottom: none; padding-bottom: 0;">Foco no momento</h2>
