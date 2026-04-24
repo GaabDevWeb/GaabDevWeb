@@ -1,80 +1,194 @@
-#gaab
-name: GitHub Metrics
+# =============================================================================
+#  📊 GitHub Profile Metrics — lowlighter/metrics
+#  Arquivo: .github/workflows/metrics.yml
+#
+#  Plugins ativos:
+#    ✅ lines        — Telemetria de refatoração (adições/remoções)
+#    ✅ habits       — Prova de rotina e disciplina de commits
+#    ✅ languages    — Detalhamento técnico da stack
+#    ✅ achievements — Validação de competências e marcos
+#    ✅ anilist      — Integração de identidade visual/estética
+#
+#  Push destino : branch `main`, pasta `metrics/`
+#  Segurança    : token via ${{ secrets.METRICS_TOKEN }}
+# =============================================================================
+
+name: 📊 GitHub Metrics
 
 on:
-  workflow_dispatch:
+  # ── Agendamento automático: todo dia às 00:30 UTC ──────────────────────────
   schedule:
-    - cron: "0 6 * * 0"
-  push:
-    branches: ["main"]
+    - cron: "30 0 * * *"
+
+  # ── Gatilho manual via GitHub UI ou API ───────────────────────────────────
+  workflow_dispatch:
+
+# ── Permissão obrigatória para commitar os SVGs no repositório ────────────────
+permissions:
+  contents: write
 
 jobs:
-  github-metrics:
+
+  # ============================================================================
+  #  JOB 1 — Header / Estatísticas gerais
+  #  Saída: metrics/header.svg
+  # ============================================================================
+  metrics-header:
+    name: 🏷️ Header & Stats
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
     steps:
-
-      # ── AniList primeiro: evita efeitos de outros passos; listas sem espaço após vírgula (parser do metrics) ──
-      - name: AniList (mangás favoritos e personagens)
-        uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: GaabDevWeb
-          template: classic
-          base: ""
-          filename: metrics-anilist.svg
-          output_action: commit
-          committer_branch: main
-          plugin_anilist: yes
-          plugin_anilist_user: GaabDevWeb
-          plugin_anilist_medias: manga
-          plugin_anilist_sections: favorites,characters
-          plugin_anilist_limit: 6
-          plugin_anilist_limit_characters: 22
-          plugin_anilist_shuffle: no
-
-      # ── Isocalendar: só half-year | full-year (ver plugins/isocalendar/README.md) ──
-      - name: Calendário isométrico
+      - name: Header — estatísticas gerais do perfil
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          user: GaabDevWeb
-          template: classic
-          base: ""
-          filename: metrics-calendar.svg
-          output_action: commit
-          committer_branch: main
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          filename: metrics/header.svg
 
-      # ── Linguagens mais usadas (indepth + linhas) ──
-      - name: Linguagens & Linhas
+          # Configurações visuais
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Sao_Paulo
+
+          # Sem plugins extras neste job — foco no header limpo
+          plugin_lines: no
+          plugin_habits: no
+          plugin_languages: no
+          plugin_achievements: no
+          plugin_anilist: no
+
+  # ============================================================================
+  #  JOB 2 — Lines (telemetria de refatoração)
+  #  Saída: metrics/lines.svg
+  # ============================================================================
+  metrics-lines:
+    name: 📐 Lines of Code
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Lines — adições e remoções históricas
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          user: GaabDevWeb
+          filename: metrics/lines.svg
+
+          base: ""                         # Desativa o header padrão
           template: classic
-          base: ""
-          filename: metrics-languages.svg
-          output_action: commit
-          committer_branch: main
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_details: lines, percentage
-          plugin_languages_limit: 8
+          config_timezone: America/Sao_Paulo
+
           plugin_lines: yes
+          plugin_lines_history_limit: 1   # Últimos N anos de histórico
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base, repositories
 
-      # ── Repositórios + tráfego (views últimas 2 semanas) ──
-      - name: Tráfego de repositórios
+  # ============================================================================
+  #  JOB 3 — Habits (rotina e disciplina)
+  #  Saída: metrics/habits.svg
+  # ============================================================================
+  metrics-habits:
+    name: ⏰ Coding Habits
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Habits — padrão de horários e dias de commits
         uses: lowlighter/metrics@latest
-        continue-on-error: true
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          user: GaabDevWeb
+          filename: metrics/habits.svg
+
+          base: ""
           template: classic
-          base: repositories
-          filename: metrics-traffic.svg
-          output_action: commit
-          committer_branch: main
-          plugin_traffic: yes
+          config_timezone: America/Sao_Paulo
+
+          plugin_habits: yes
+          plugin_habits_from: 200         # Últimos N eventos analisados
+          plugin_habits_days: 14          # Janela de dias para análise
+          plugin_habits_facts: yes        # Exibe fatos curiosos sobre hábitos
+          plugin_habits_charts: yes       # Gráficos de horário/dia da semana
+          plugin_habits_trim: yes         # Remove horas sem atividade
+
+  # ============================================================================
+  #  JOB 4 — Languages (stack técnica)
+  #  Saída: metrics/languages.svg
+  # ============================================================================
+  metrics-languages:
+    name: 💻 Languages & Stack
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Languages — distribuição técnica da stack
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics/languages.svg
+
+          base: ""
+          template: classic
+          config_timezone: America/Sao_Paulo
+
+          plugin_languages: yes
+          plugin_languages_ignored: >-   # Ignore linguagens de markup/config
+            html, css, dockerfile, makefile, shell
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8      # Top N linguagens exibidas
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_details: bytes-size, percentage, lines
+          plugin_languages_threshold: 0%
+          plugin_languages_indepth: no   # Análise profunda (mais lenta)
+
+  # ============================================================================
+  #  JOB 5 — Achievements (validação de competências)
+  #  Saída: metrics/achievements.svg
+  # ============================================================================
+  metrics-achievements:
+    name: 🏆 Achievements
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Achievements — marcos e conquistas no GitHub
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics/achievements.svg
+
+          base: ""
+          template: classic
+          config_timezone: America/Sao_Paulo
+
+          plugin_achievements: yes
+          plugin_achievements_threshold: C    # Nível mínimo: X, S, A, B, C
+          plugin_achievements_secrets: yes    # Inclui achievements secretos
+          plugin_achievements_display: detailed
+          plugin_achievements_limit: 0        # 0 = sem limite
+
+  # ============================================================================
+  #  JOB 6 — Anilist (identidade visual/estética)
+  #  Saída: metrics/anilist.svg
+  # ============================================================================
+  metrics-anilist:
+    name: 🎌 Anilist
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Anilist — anime/manga integrados ao perfil
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics/anilist.svg
+
+          base: ""
+          template: classic
+          config_timezone: America/Sao_Paulo
+
+          plugin_anilist: yes
+          # ⚠️  Substitua pelo seu usuário do Anilist:
+          plugin_anilist_user: .user.login
+          plugin_anilist_medias: anime, manga
+          plugin_anilist_sections: favorites, characters
+          plugin_anilist_limit: 2
+          plugin_anilist_limit_characters: 22
+          plugin_anilist_shuffle: yes     # Embaralha a exibição
