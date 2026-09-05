@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=linux&logoColor=white&color=black" alt="Status" />
   <img src="https://img.shields.io/badge/AUTO-DRIVEN-orange?style=for-the-badge&logo=python&logoColor=white&color=black" alt="Auto-driven" />
   <img src="https://img.shields.io/badge/LOC-ALPESTRE_RS-blue?style=for-the-badge&color=black" alt="Localização" />
-  <img src="https://img.shields.io/badge/STACK-FULLSTACK-9cf?style=for-the-badge&logoColor=white&color=black" alt="Fullstack" />
+  <img src="https://img.shields.io/badge/STACK-BACKEND-9cf?style=for-the-badge&logoColor=white&color=black" alt="Backend" />
   <img src="https://img.shields.io/badge/MODE-LEARNING-informational?style=for-the-badge&logo=gitbook&logoColor=white&color=black" alt="Learning" />
   <img src="https://img.shields.io/badge/FOCUS-AUTOMATION-critical?style=for-the-badge&logo=robotframework&logoColor=white&color=black" alt="Automação" />
 </p>
